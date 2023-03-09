@@ -8,7 +8,6 @@ model = pickle.load(open(r"Titanic.pkl","rb"))
 # Main Function
 def main():
     st.title("Titanic Survival Prediction")
-    st.image(r"C:\Users\sksho\Desktop\Streamlit\streamlit Dev\Titanic_Sink.jpg", caption= 'Titanic')
     st.header("Check Out Your Chances of Survival, If You Had a Chance To Be OnBoard")
 
     # Sidebar configuration:
