@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 import  numpy as np
 
-model = pickle.load(open(r"C:\Users\sksho\Desktop\My Github Repo\Titanic Survival\Titanic.pkl","rb"))
+model = pickle.load(open(r"Titanic.pkl","rb"))
 
 # Main Function
 def main():
