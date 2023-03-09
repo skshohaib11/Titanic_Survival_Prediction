@@ -61,16 +61,11 @@ if st.button("Predict"):
 
     if result[0] == 1:
         st.write("Congratulations!!! You Are Alive.")
-        #st.write("Probability of Your Survival Are :'Survived': {}%  'Not Survived': {}% ".format(round((proba[0,0])*100,2),round((proba[0,1])*100,2)))
     else:
         st.write("Unfortunately, You Are Dead.")
-        #st.write("Probability of Your Survival Are :'Not Survived': {}%  'Survived': {}% ".format(round((proba[0,0])*100,2),round((proba[0,1])*100,2)))
 
 # Prepared By.
 st.subheader('Prepared By')
-
-
-#st.image(r"C:\Users\sksho\Desktop\Streamlit\streamlit Dev\Shohaib Shaikh.jpg", caption = 'Shohaib', width=600)
 st.write("Shohaib Shaikh")
 
 
